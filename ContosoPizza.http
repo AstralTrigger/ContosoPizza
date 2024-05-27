@@ -1,0 +1,24 @@
+@ContosoPizza_HostAddress = http://localhost:5290
+
+GET {{ContosoPizza_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+// testing controller in accordance to exercise step 2
+GET {{ContosoPizza_HostAddress}}/pizza/ 
+Accept: application/json
+
+###
+
+// testing step 4
+GET {{ContosoPizza_HostAddress}}/pizza/1 
+Accept: application/json
+
+###
+
+// testing step 5
+GET {{ContosoPizza_HostAddress}}/pizza/5
+Accept: application/json
+
+###
