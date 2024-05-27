@@ -20,5 +20,3 @@ Accept: application/json
 // testing step 5
 GET {{ContosoPizza_HostAddress}}/pizza/5
 Accept: application/json
-
-###
